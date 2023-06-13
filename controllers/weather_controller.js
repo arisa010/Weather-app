@@ -15,10 +15,6 @@ router.get("/", (req, res) => {
       return response.json();
     })
     .then((data) => res.json(data))
-    .catch((error) => {
-      console.log(error);
-      res.status(500).send("An error occurred while fetching the weather");
-    });
 });
 
 module.exports = router

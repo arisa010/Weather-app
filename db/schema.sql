@@ -72,3 +72,66 @@ VALUES
     ('Boots','https://t3.ftcdn.net/jpg/00/98/33/16/240_F_98331626_bkP5clniyUjIL4eoAtZoh1bIIe6XxnGP.jpg','winter');
     
 
+
+---added some data into collection just copy and paste:)
+
+INSERT INTO tops(name, image_url, weather)
+VALUES
+('jacket','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(4).jpg','moderate'),
+('yellow jumper','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project.jpg','moderate'),
+('denim jacket','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(1).jpg','moderate'),
+('blue jumper','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(3).jpg','moderate'),
+('mens shirt','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(10).jpg','moderate'),
+('silk shirt','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(20).jpg','moderate'),
+('puffer jacket','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(2).jpg','winter'),
+('coat','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(8).jpg','winter'),
+('red shirt','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(11).jpg','summer'),
+('dress','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(16).jpg','summer'),
+('beige shirt','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(12).jpg','summer'),
+('tshirt','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(9).jpg','summer');
+
+
+
+INSERT INTO bottoms (name, image_url, weather)
+VALUES
+('pant a','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(5).jpg','moderate'),
+('pant b','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(17).jpg','moderate'),
+('pant c','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(7).jpg','moderate'),
+('pant d','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(6).jpg','moderate'),
+('Jeans','https://t3.ftcdn.net/jpg/04/83/25/50/240_F_483255019_m1r1ujM8EOkr8PamCHF85tQ0rHG3Fiqz.jpg','moderate'),
+('pant e','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(22).jpg','winter'),
+('pant f','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(18).jpg','winter'),
+('pant g','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(19).jpg','winter'),
+('pant h','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(21).jpg','summer'),
+('pant i','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(6).jpg','summer');
+
+
+
+INSERT INTO shoes (name, image_url, weather)
+VALUES
+('shoe a','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(15).jpg','moderate'),
+('shoe b','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(14).jpg','moderate'),
+('shoe c','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(26).jpg','moderate'),
+('shoe d','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(27).jpg','moderate'),
+('shoe e','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(25).jpg','winter'),
+('shoe f','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(24).jpg','winter'),
+('shoe g','https://raw.githubusercontent.com/nabeghamazahir/Weather-app/main/New%20Project%20(23).jpg','winter');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -75,13 +75,13 @@ function renderMainContent(){
     <div class="controls">
       <div class="save-collection">
         <form action="" onSubmit=createCollection(event)>
-          <input type="text" name="collection_input" placeholder="Enter collection name...">
-          <button>Save Collection</button>
+          <input class="text-box" type="text" name="collection_input" placeholder="Enter collection name...">
+          <button class="collection-btn">Save Collection</button>
       </form>
       </div>
       <div class="read-collection">
         <select name="" id="drop-down"></select>
-        <button onclick="getCollection()">Get Collection</button>
+        <button class="collection-btn" onclick="getCollection()">Get Collection</button>
 
       </div>
     </div>`

@@ -14,10 +14,6 @@ router.post("/create", (req, res) => {
 
     Collection.create(name, weather, user_id, top_id, bottom_id, shoe_id)
         .then(name => res.json(name))
-        .catch(error => {
-        console.error('Database error:', error);
-        res.status(500).json({ error: 'Internal Server Error' });
-  });
   });
 
 
@@ -35,13 +31,9 @@ router.post('/update', (req, res) => {
 
     Collection.updateById(id, name)
         .then(() => res.json({ success: true }))
-        .catch(error => {
-        console.error('Database error:', error);
-        res.status(500).json({ error: 'Internal Server Error' });
-    });
     });
 
-
+78
 
 router.delete('/delete', (req, res)=> {
     const collection_id = req.query.id;
